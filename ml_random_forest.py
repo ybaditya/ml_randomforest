@@ -146,6 +146,10 @@ def random_forest_classification():
 
     predict_var = rfc.predict([variable])
     st.sidebar.write("Prediction Value :",predict_var[0])
+
+
+st.sidebar.link_button("Link to Multi Apps & Tools", "https://multiappsandtools.web.app/")
+st.sidebar.markdown("---")
     
 st.sidebar.write("_**Input Machine Learning Parameter**_")
 test = st.sidebar.slider("Input test size",min_value=0.1, max_value=0.4, value=0.2)
